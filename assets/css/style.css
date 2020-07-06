@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Maven Pro", sans-serif;
+  color: #0c1e37;
+  font-weight: normal;
+}
+
+nav {
+  background: transparent;
+  box-shadow: none !important;
+}
+
+.clearfix {
+  margin-top: 100px !important;
+}
+
+.font-sm {
+  font-weight: 300 !important;
+}
+
+.font-md {
+  font-weight: 500 !important;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+/* Background colors */
+
+.bg-search {
+  background-color: #fbfbfb !important;
+}
+
+.bg-aqua {
+  background-color: #f4f8fc !important;
+}
+
+.bg-primary {
+  background-color: #0066f5 !important;
+}
+
+.bg-secondary {
+  background-color: #022b69 !important;
+}
+/* End of background colors */
+
+/* Text colors */
+
+.text-primary {
+  color: #0066f5 !important;
+}
+
+.text-secondary,
+.flatmates-color {
+  color: #022b69 !important;
+}
+
+.text-grey {
+  color: rgba(10, 46, 101, 0.3);
+}
+
+.active {
+  color: #0066f5;
+}
+
+/* End of text colors */
+
+/* Card */
+
+.card-header {
+  background-color: #fff;
+}
+
+/* Button */
+
+.btn {
+  /* border-radius: 10em; */
+  text-transform: capitalize;
+  font-size: 14px !important;
+}
+
+.btn-primary {
+  background-color: #0066f5 !important;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #0226b9 !important;
+  color: #fff;
+}
+
+.btn-wide {
+  width: 150px !important;
+}
+
+/* End of buttons */
+
+/* GENERAL */
+.flatmates-color {
+  color: #0226b9 !important;
+}
+
+/* GENERAL NAVBAR */
+.navbar .navbar-nav .nav-item > .nav-link {
+  font-weight: bold !important;
+}
+
+.navbar .navbar-nav .nav-item.active > .nav-link,
+.navbar .navbar-nav .nav-item > .nav-link:hover {
+  color: #0226b9 !important;
+}
+
+/* END GENERAL NAVBAR */
+
+/* LOGIN FORM */
+.login-form .card {
+  border-radius: 15px;
+}
+
+.login-header-text {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.login-form .header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.login-form .md-form.md-outline input[type="email"],
+.login-form .md-form.md-outline input[type="text"],
+.login-form .md-form.md-outline input[type="tel"],
+.login-form .md-form.md-outline input[type="number"],
+.login-form .md-form.md-outline input[type="password"] {
+  padding: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.login-form .md-form.md-outline label {
+  top: 4px;
+  left: 7px;
+}
+
+.login-form .md-form.md-outline label.active {
+  top: -1px;
+}
+
+.login-form .md-form:last-child {
+  margin-bottom: 8px;
+}
+
+.login-form .select-wrapper.md-form.md-outline + label {
+  top: 0.1rem !important;
+}
+/* END LOGIN FORM */
+
+/* START EDIT PROFILE */
+.card-content-fix {
+  display: contents;
+}
+
+.profile-header {
+  overflow: hidden;
+  margin-top: -18px;
+}
+
+.big-select-fix input[type="text"] {
+  padding: 1.8rem !important;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 9999;
+  /* font-weight: 400; */
+  width: 50%;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0.8rem;
+  -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+}
+/* .alert-success {
+  background-color: #0066f5 !important;
+} */
+/* 
+.alert-danger {
+  background-color: #eb4d4b !important;
+} */
+
+.loader {
+  display: none;
+}
+
+.avatar {
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: -70px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+section.profile-card {
+  margin-top: 200px !important;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .homepageCards {
+    height: 280px !important;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .homepageCards {
+    height: 280px !important;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .homepageCards {
+    height: 280px !important;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .homepageCards {
+    height: 280px;
+  }
+}
+
+.homepageCards {
+  box-shadow: none !important;
+  border-radius: 15px;
+}
+
+.homepageCards h4 {
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+
+.pricing-card {
+  border-radius: none;
+  background: white;
+  box-shadow: none;
+}
+
+.pricing-card h5 {
+  font-weight: bolder !important;
+  font-size: 1.6rem;
+}
+
+.pricing-card a {
+  font-size: 13px !important;
+}
+
+.recommended {
+  font-size: 8px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.price {
+  margin-top: -4rem;
+  font-size: 2.7rem;
+  font-weight: bolder;
+}
+
+.price span.sign {
+  font-size: 1.5rem;
+}
+
+#shadow {
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2) !important;
+  border-radius: 5px;
+}
+
+/* Custom select styling */
+
+/* ///  DECORATION CSS ///  */
+.cont_select_center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -30px;
+  margin-left: -150px;
+}
+
+.cont_heg_50 {
+  position: absolute;
+  height: 50%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #fd7b52;
+}
+/* ///  END DECORATION CSS  ///  */
+
+.icon_select_mate {
+  position: absolute;
+  top: 10px;
+  right: 2%;
+  font-size: 16px;
+  height: 22px;
+  transition: all 275ms;
+}
+
+.select_mate {
+  position: relative;
+  float: left;
+  min-width: 100%;
+  width: 100%;
+  min-height: 30px;
+  height: 40px;
+  font-family: "Roboto";
+  color: #777;
+  font-weight: 300;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  /* box-shadow: 1px 2px 10px -2px rgba(0, 0, 0, 0.3); */
+  border-radius: 3px;
+  transition: all 375ms ease-in-out;
+}
+/* Oculto el elemento select */
+.select_mate select {
+  position: absolute;
+  overflow: hidden;
+  height: 0px;
+  opacity: 0;
+  z-index: -1;
+}
+
+.cont_list_select_mate {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.cont_select_int {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  overflow: hidden;
+  height: 0px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-radius: 0px 0px 3px 3px;
+  box-shadow: 1px 4px 10px -2px rgba(0, 0, 0, 0.2);
+  transition: all 375ms ease-in-out;
+}
+
+.const_select_int .active {
+  background-color: #fff;
+}
+
+.cont_select_int li {
+  position: relative;
+  float: left;
+  width: 96%;
+  /* border-bottom: 1px solid #e0e0e0; */
+  background-color: #fff;
+  color: #0066f5;
+  list-style-type: none;
+  font-family: "Maven Pro";
+  padding: 10px 4%;
+  margin: 0px;
+  transition: all 275ms ease-in-out;
+  display: block;
+  cursor: pointer;
+}
+
+.cont_select_int li:last-child {
+  border-radius: 3px;
+  border-bottom: 0px;
+}
+
+.cont_select_int li:hover {
+  background-color: #eeeeee;
+}
+
+/* etiqueta <p> con la opcion selecionada  */
+.selecionado_opcion {
+  padding: 10px 2%;
+  width: 96%;
+  display: block;
+  font-family: "Maven Pro";
+  margin: 0px;
+  cursor: pointer;
+}
